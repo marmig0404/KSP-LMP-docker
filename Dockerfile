@@ -7,11 +7,13 @@ RUN \
 
 # get latest LMP release
 WORKDIR /LMP-server
-RUN curl --silent "https://api.github.com/repos/LunaMultiplayer/LunaMultiplayer/releases/latest" | jq -r '.assets[] | select(.name | contains("LunaMultiplayer-Server-Release.zip")) | .browser_download_url' | wget -i -
-RUN unzip LunaMultiplayer-Server-Release.zip && rm ./LunaMultiplayer-Server-Release.zip
 
 # expose the server folder as a volume
 VOLUME /LMP-server/LMPServer
+
+# download the latest release to the server folder
+RUN curl --silent "https://api.github.com/repos/LunaMultiplayer/LunaMultiplayer/releases/latest" | jq -r '.assets[] | select(.name | contains("LunaMultiplayer-Server-Release.zip")) | .browser_download_url' | wget -i -
+RUN unzip LunaMultiplayer-Server-Release.zip && rm ./LunaMultiplayer-Server-Release.zip
 
 # expose ports
 EXPOSE 8800/udp
