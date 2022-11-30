@@ -17,6 +17,6 @@ EXPOSE 8800/udp
 EXPOSE 8801/udp
 EXPOSE 8900/tcp
 
-#VOLUME /LMP-server/LMPServer
+VOLUME /LMP-server/LMPServer
 
 CMD dotnet Server.dll
