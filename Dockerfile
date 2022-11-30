@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/aspnet
+FROM mcr.microsoft.com/dotnet/sdk:5.0
 
 RUN \
 	apt update \
