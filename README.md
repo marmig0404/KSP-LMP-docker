@@ -50,7 +50,7 @@ The public server list can be found [here](http://lunamultiplayer.com/pages/rele
 
 ## Extra bits
 
-[Docker Hub page](https://hub.docker.com/r/marmig0404/ksp-lunamultiplayer)
+[Docker Hub page](https://hub.docker.com/r/marmig/ksp-lunamultiplayer)
 [GitHub page](https://github.com/marmig0404/KSP-LMP-docker)
 
 [LMP GitHub repo](https://github.com/LunaMultiplayer/LunaMultiplayer)
