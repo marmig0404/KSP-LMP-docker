@@ -1,5 +1,8 @@
 # KSP-LMP-docker
 
+***THIS REPOSITORY IS ARCHIVED!** For up to date images, check out [Luna Multiplayer's Official Docker Image](https://github.com/LunaMultiplayer/LunaMultiplayer/pkgs/container/lunamultiplayer%2Fserver)*
+
+
 [![Docker Pulls](https://badgen.net/docker/pulls/marmig/ksp-lunamultiplayer)](https://hub.docker.com/r/marmig/ksp-lunamultiplayer)
 
 This docker image is based on the [Lunamultiplayer](https://github.com/LunaMultiplayer/LunaMultiplayer) mod and creates a server for Kerbal Space Program.
